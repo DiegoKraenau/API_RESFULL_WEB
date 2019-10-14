@@ -26,6 +26,9 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 //TAMBIEN DESCARGAR NET STANDAR VERSION 2.2.4
 
 
+Microsoft.EntityFrameworkCore
+Npgsql.EntityFrameworkCore.postgresql
+
 
 -------------------------HASTA AQUI SON LOS COMANDOS------------------
 

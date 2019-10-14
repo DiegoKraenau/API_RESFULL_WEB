@@ -2691,11 +2691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.api\\RapiSolver.Api.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
       "projectName": "RapiSolver.Api",
-      "projectPath": "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.api\\RapiSolver.Api.csproj",
+      "projectPath": "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.api\\obj\\",
+      "outputPath": "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2712,11 +2712,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-              "projectPath": "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+            "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+              "projectPath": "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
             },
-            "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
-              "projectPath": "C:\\Users\\diego\\Desktop\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj"
+            "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
+              "projectPath": "C:\\Users\\diego\\Desktop\\API_RESFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj"
             }
           }
         }
