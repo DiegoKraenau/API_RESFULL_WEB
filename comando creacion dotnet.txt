@@ -1,0 +1,57 @@
+dotnet new sln -n RapiSolver
+
+dotnet new webapi -n RapiSolver.Api
+dotnet new classlib -n RapiSolver.Entity
+dotnet new classlib -n RapiSolver.Repository
+dotnet new classlib -n RapiSolver.Service
+
+dotnet add RapiSolver.Repository/RapiSolver.Repository.csproj reference RapiSolver.Entity/RapiSolver.Entity.csproj
+dotnet add RapiSolver.Service/RapiSolver.Service.csproj reference RapiSolver.Repository/RapiSolver.Repository.csproj
+dotnet add RapiSolver.Service/RapiSolver.Service.csproj reference RapiSolver.Entity/RapiSolver.Entity.csproj
+dotnet add RapiSolver.Api/RapiSolver.Api.csproj reference RapiSolver.Entity/RapiSolver.Entity.csproj
+dotnet add RapiSolver.Api/RapiSolver.Api.csproj reference RapiSolver.Service/RapiSolver.Service.csproj
+
+
+dotnet sln RapiSolver.sln add RapiSolver.Api/RapiSolver.Api.csproj RapiSolver.Repository/RapiSolver.Repository.csproj RapiSolver.Entity/RapiSolver.Entity.csproj RapiSolver.Service/RapiSolver.Service.csproj
+
+
+dotnet build
+
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL  
+
+dotnet tool install --global dotnet-ef
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+//TAMBIEN DESCARGAR NET STANDAR VERSION 2.2.4
+
+
+
+-------------------------HASTA AQUI SON LOS COMANDOS------------------
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
+namespace RapiSolver.Api
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            BuildWebHost(args).Run();
+        }
+
+        public static IWebHost BuildWebHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>()
+                .Build();
+    }
+}
