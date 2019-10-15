@@ -13,6 +13,8 @@ namespace RapiSolver.Entity
         
         public string UserPassword{get;set;}
 
-        public List<Rol> Roles{get;set;}
+        public Rol Rol{get;set;}
+
+        public int RolId{get;set;}
     }
 }

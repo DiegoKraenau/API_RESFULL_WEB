@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace RapiSolver.Entity
 {
     public class Rol
@@ -8,8 +10,8 @@ namespace RapiSolver.Entity
         
         public string RolDescription{get;set;}
 
-        public Usuario Usuario{get;set;}
+        public bool Publish{get;set;}
 
-        public int UsuarioId{get;set;}
+        public List<Usuario> Usuarios{get;set;}
     }
 }
