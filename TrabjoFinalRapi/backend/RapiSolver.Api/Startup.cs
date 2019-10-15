@@ -37,6 +37,12 @@ namespace RapiSolver.Api
             services.AddTransient<IClienteRepository, ClienteRepository> ();
             services.AddTransient<IClienteService, ClienteService> ();
 
+            services.AddTransient<IRolRepository, RolRepository> ();
+            services.AddTransient<IRolService, RolService> ();
+
+             services.AddTransient<IUsuarioRepository, UsuarioRepository> ();
+            services.AddTransient<IUsuarioService, UsuarioService> ();
+
             services.AddControllers();
         }
 
