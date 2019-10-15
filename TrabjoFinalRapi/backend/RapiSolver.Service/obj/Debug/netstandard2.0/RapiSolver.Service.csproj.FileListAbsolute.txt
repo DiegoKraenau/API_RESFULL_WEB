@@ -11,3 +11,16 @@ C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\nets
 C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.csproj.CopyComplete
 C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.dll
 C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.pdb
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Service.deps.json
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Service.dll
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Service.pdb
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.AssemblyInfo.cs
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.csproj.CopyComplete
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.dll
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.pdb

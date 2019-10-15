@@ -6,3 +6,11 @@ C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netst
 C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.dll
 C:\Users\diego\desktop\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.pdb
 C:\Users\diego\Desktop\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.deps.json
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfo.cs
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.pdb

@@ -11,7 +11,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RapiSolver.Repository;
 using RapiSolver.Repository.context;
+using RapiSolver.Repository.implementation;
+using RapiSolver.Service;
+using RapiSolver.Service.implementation;
 
 namespace RapiSolver.Api
 {
@@ -30,7 +34,8 @@ namespace RapiSolver.Api
               services.AddEntityFrameworkNpgsql ().AddDbContext<ApplicationDbContext> (opt =>
                 opt.UseNpgsql (Configuration.GetConnectionString ("DefaultConnection"))); 
 
-                
+            services.AddTransient<IClienteRepository, ClienteRepository> ();
+            services.AddTransient<IClienteService, ClienteService> ();
 
             services.AddControllers();
         }
