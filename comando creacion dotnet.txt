@@ -23,6 +23,10 @@ dotnet tool install --global dotnet-ef
 
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
+dotnet ef --startup-project ../RapiSolver.api migrations add Init3
+
+dotnet ef --startup-project ../RapiSolver.api database update
+
 //TAMBIEN DESCARGAR NET STANDAR VERSION 2.2.4
 
 
