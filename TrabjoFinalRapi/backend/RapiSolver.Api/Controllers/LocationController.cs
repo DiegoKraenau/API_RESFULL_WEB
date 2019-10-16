@@ -4,40 +4,41 @@ using RapiSolver.Service;
 
 namespace RapiSolver.Api.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
 
-    public class RolController: ControllerBase
+    public class LocationController: ControllerBase
     {
-        private IRolService rolService;
+        private ILocationService locationService;
 
-        public RolController(IRolService rolService)
+        public LocationController(ILocationService locationService)
         {
-            this.rolService = rolService;
+            this.locationService = locationService;
         }
 
-        [HttpGet]
+         [HttpGet]
         public ActionResult Get()
         {
             return Ok(
-                rolService.GetAll()
+                locationService.GetAll()
             );
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Rol rol)
+        public ActionResult Post([FromBody] Location location)
         {
             return Ok(
-                rolService.Save(rol)
+                locationService.Save(location)
             );
         }
 
        
         [HttpGet("{id}")]
-        public ActionResult Get([FromRoute] int id)
+        public ActionResult Get(int id)
         {
             return Ok(
-                rolService.Get(id)
+                locationService.Get(id)
             );
         }
         

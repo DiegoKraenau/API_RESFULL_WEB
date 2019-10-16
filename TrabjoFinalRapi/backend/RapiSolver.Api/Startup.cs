@@ -49,6 +49,9 @@ namespace RapiSolver.Api
             services.AddTransient<ISupplierRepository, SupplierRepository> ();
             services.AddTransient<ISupplierService, SupplierService> ();
 
+            services.AddTransient<ILocationRepository, LocationRepository> ();
+            services.AddTransient<ILocationService, LocationService> ();
+
 
              services.AddCors (options => {
                 options.AddPolicy ("Todos",
