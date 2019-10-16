@@ -43,8 +43,11 @@ namespace RapiSolver.Api
             services.AddTransient<IUsuarioRepository, UsuarioRepository> ();
             services.AddTransient<IUsuarioService, UsuarioService> ();
 
-             services.AddTransient<ICustomerRepository, CustomerRepository> ();
+            services.AddTransient<ICustomerRepository, CustomerRepository> ();
             services.AddTransient<ICustomerService, CustomerService> ();
+
+            services.AddTransient<ISupplierRepository, SupplierRepository> ();
+            services.AddTransient<ISupplierService, SupplierService> ();
 
 
              services.AddCors (options => {
