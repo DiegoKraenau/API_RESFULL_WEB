@@ -31,7 +31,7 @@ namespace RapiSolver.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-              services.AddEntityFrameworkNpgsql ().AddDbContext<ApplicationDbContext> (opt =>
+            services.AddEntityFrameworkNpgsql ().AddDbContext<ApplicationDbContext> (opt =>
                 opt.UseNpgsql (Configuration.GetConnectionString ("DefaultConnection"))); 
 
             services.AddTransient<IClienteRepository, ClienteRepository> ();
@@ -40,10 +40,23 @@ namespace RapiSolver.Api
             services.AddTransient<IRolRepository, RolRepository> ();
             services.AddTransient<IRolService, RolService> ();
 
-             services.AddTransient<IUsuarioRepository, UsuarioRepository> ();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository> ();
             services.AddTransient<IUsuarioService, UsuarioService> ();
 
+             services.AddTransient<ICustomerRepository, CustomerRepository> ();
+            services.AddTransient<ICustomerService, CustomerService> ();
+
+
+             services.AddCors (options => {
+                options.AddPolicy ("Todos",
+                    builder => builder.WithOrigins ("*").WithHeaders ("*").WithMethods ("*"));
+            });
+
+
             services.AddControllers();
+
+
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,6 +66,8 @@ namespace RapiSolver.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors ("Todos");
 
             app.UseHttpsRedirection();
 
@@ -64,6 +79,10 @@ namespace RapiSolver.Api
             {
                 endpoints.MapControllers();
             });
+
+            
+            //app.UseHttpsRedirection();
+            
         }
     }
 }

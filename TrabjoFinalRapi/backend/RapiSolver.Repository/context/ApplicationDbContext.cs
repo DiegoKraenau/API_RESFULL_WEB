@@ -19,6 +19,8 @@ namespace RapiSolver.Repository.context
         public DbSet<Servicio> servicios{get;set;}
 
         public DbSet<ServiceDetails> serviceDetails{get;set;}
+
+         public DbSet<Location> locations{get;set;}
         
 
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base (options) {
