@@ -64,3 +64,36 @@ C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\ob
 C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.csproj.CopyComplete
 C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.dll
 C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.exe
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.deps.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.runtimeconfig.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.runtimeconfig.dev.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Npgsql.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Entity.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Repository.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Service.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Entity.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Service.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Repository.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.csprojAssemblyReference.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\staticwebassets\RapiSolver.Api.StaticWebAssets.Manifest.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\staticwebassets\RapiSolver.Api.StaticWebAssets.xml
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.AssemblyInfoInputs.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.AssemblyInfo.cs
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.RazorTargetAssemblyInfo.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.csproj.CopyComplete
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.pdb

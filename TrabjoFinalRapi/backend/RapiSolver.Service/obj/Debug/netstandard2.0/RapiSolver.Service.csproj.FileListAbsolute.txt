@@ -24,3 +24,16 @@ C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Servic
 C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.csproj.CopyComplete
 C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.dll
 C:\Users\diego\Desktop\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Service.deps.json
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Service.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Service.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.csprojAssemblyReference.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.AssemblyInfoInputs.cache
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.AssemblyInfo.cs
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.csproj.CopyComplete
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.dll
+C:\Desarrollador\Aplicaciones Web\API_RESFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Service\obj\Debug\netstandard2.0\RapiSolver.Service.pdb
