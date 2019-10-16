@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using RapiSolver.Entity;
 using RapiSolver.Repository.context;
+using RapiSolver.Repository.ViewModel;
 
 namespace RapiSolver.Repository.implementation
 {
@@ -37,24 +39,53 @@ namespace RapiSolver.Repository.implementation
 
         public IEnumerable<Servicio> GetAll()
         {
-             var result = new List<Servicio>();
-            try
-            {
-                result = context.servicios.ToList();
-            }
+           throw new System.NotImplementedException();
+        }
 
-            catch (System.Exception)
-            {
+        public IEnumerable<ServicioViewModel> GetAllServicios()
+        {
+            var servicios = context.servicios
+                .Include (o => o.ServiceCategory)
+                .OrderByDescending (o => o.ServiceCategoryId)
+                .Take (10)
+                .ToList ();
 
-                throw;
-            }
-            return result;
+            return servicios.Select (o => new ServicioViewModel {
+                    ServicioId = o.ServicioId,
+                    Name = o.Name,
+                    Description = o.Description,
+                    Cost = o.Cost,
+                    ServiceCategoryId=o.ServiceCategoryId,
+                    CategoryName=o.ServiceCategory.CategoryName
+
+             });
+        }
+
+        public IEnumerable<ServicioViewModel> GetServiciosByCategory(string name)
+        {
+            var servicios = context.servicios
+                .Include (o => o.ServiceCategory)
+                .OrderByDescending (o => o.ServiceCategoryId)
+                .Take (10)
+                .Where(o=>o.ServiceCategory.CategoryName==name)
+                .ToList ();
+
+            return servicios.Select (o => new ServicioViewModel {
+                    ServicioId = o.ServicioId,
+                    Name = o.Name,
+                    Description = o.Description,
+                    Cost = o.Cost,
+                    ServiceCategoryId=o.ServiceCategoryId,
+                    CategoryName=o.ServiceCategory.CategoryName
+
+             });
         }
 
         public bool Save(Servicio entity)
         {
             try
             {
+                entity.ServiceCategory=context.categories.Find(entity.ServiceCategoryId);
                 context.Add(entity);
                 context.SaveChanges();
             }

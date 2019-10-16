@@ -19,7 +19,7 @@ namespace RapiSolver.Api.Controllers
         public ActionResult Get()
         {
             return Ok(
-                servicioService.GetAll()
+                servicioService.GetAllServicios()
             );
         }
 
@@ -30,6 +30,29 @@ namespace RapiSolver.Api.Controllers
                 servicioService.Save(servicio)
             );
         }
+
+        /* 
+
+        [HttpGet("{id}")]
+        public ActionResult Get([FromRoute] int id)
+        {
+            return Ok(
+                servicioService.Get(id)
+            );
+        }
+        */
+
+        
+
+        [HttpGet("{name}")]
+        public ActionResult Get([FromRoute] string name)
+        {
+            return Ok(
+                servicioService.GetServiciosByCategory(name)
+            );
+        }
+
+
         
     }
 }

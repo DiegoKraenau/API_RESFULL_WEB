@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using RapiSolver.Entity;
 using RapiSolver.Repository;
+using RapiSolver.Repository.ViewModel;
 
 namespace RapiSolver.Service.implementation
 {
@@ -25,6 +26,16 @@ namespace RapiSolver.Service.implementation
         public IEnumerable<Servicio> GetAll()
         {
             return servicioRepository.GetAll();
+        }
+
+        public IEnumerable<ServicioViewModel> GetAllServicios()
+        {
+            return servicioRepository.GetAllServicios();
+        }
+
+        public IEnumerable<ServicioViewModel> GetServiciosByCategory(string name)
+        {
+            return servicioRepository.GetServiciosByCategory(name);
         }
 
         public bool Save(Servicio entity)
