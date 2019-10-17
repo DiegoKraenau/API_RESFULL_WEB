@@ -1,4 +1,5 @@
 <template>
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -10,10 +11,10 @@
 <title>RapiSolver Landing Page</title>
 
 <!-- Bootstrap core CSS -->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom fonts for this template -->
-<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
+<link href="../static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
 	type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
 	rel="stylesheet" type="text/css">
@@ -27,7 +28,7 @@
 	rel='stylesheet' type='text/css'>
 
 <!-- Custom styles for this template -->
-<link href="css/agency.min.css" rel="stylesheet">
+<link href="../static/css/agency.min.css" rel="stylesheet">
 
 </head>
 
@@ -124,7 +125,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6 order-lg-2">
 					<div class="p-5">
-						<img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
+						<img class="img-fluid rounded-circle" src="../static/img/01.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6 order-lg-1">
@@ -145,7 +146,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<div class="p-5">
-						<img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+						<img class="img-fluid rounded-circle" src="../static/img/02.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -167,7 +168,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6 order-lg-2">
 					<div class="p-5">
-						<img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
+						<img class="img-fluid rounded-circle" src="../static/img/03.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6 order-lg-1">
@@ -190,7 +191,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<div class="p-5">
-						<img class="img-fluid rounded-circle" src="img/04.jpg" alt="">
+						<img class="img-fluid rounded-circle" src="../static/img/04.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -220,7 +221,7 @@
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="team-member">
-						<img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+						<img class="mx-auto rounded-circle" src="../static/img/team/1.jpg" alt="">
 						<h4>Andre Gonzales</h4>
 						<p class="text-muted">Lead Developer</p>
 						<ul class="list-inline social-buttons">
@@ -238,7 +239,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="team-member">
-						<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+						<img class="mx-auto rounded-circle" src="../static/img/team/2.jpg" alt="">
 						<h4>Diego Kraenau</h4>
 						<p class="text-muted">Lead Developer</p>
 						<ul class="list-inline social-buttons">
@@ -256,7 +257,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="team-member">
-						<img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+						<img class="mx-auto rounded-circle" src="../static/img/team/3.jpg" alt="">
 						<h4>Piero Aldaves</h4>
 						<p class="text-muted">Lead Developer</p>
 						<ul class="list-inline social-buttons">
@@ -318,21 +319,7 @@
 
 	<!-- Portfolio Modals -->
 
-
-
-	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	<!-- Plugin JavaScript -->
-	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Contact form JavaScript -->
-	<script src="js/jqBootstrapValidation.js"></script>
-	<script src="js/contact_me.js"></script>
-
-	<!-- Custom scripts for this template -->
-	<script src="js/agency.min.js"></script>
+	<!-- scripts -->
 
 
 </body>
