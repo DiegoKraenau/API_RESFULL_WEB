@@ -62,7 +62,7 @@
 								<td >{{detalle.serviceName}}</td>
 								<td >{{detalle.categoryName}}</td>
 								<td >{{detalle.cost}}</td>
-								<td><a href="" class="btn btn-success">Detalle</a>
+								<td><a href="" class="btn btn-success">Detallle</a>
 								</td>								
 							</tr>
 						</tbody>
