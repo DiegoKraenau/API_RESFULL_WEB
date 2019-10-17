@@ -3,3 +3,8 @@ vue create ....
 npm install -g @vue/cli-service-global
 npm run serve
 vue ui
+
+--BOSTRAP
+
+npm i bootstrap jquery popper.js
+Add to src/main.js: import 'bootstrap'; import 'bootstrap/dist/css/bootstrap.min.css';
