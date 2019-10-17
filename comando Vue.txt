@@ -1,0 +1,5 @@
+npm install -g @vue/cli
+vue create ....
+npm install -g @vue/cli-service-global
+npm run serve
+vue ui
