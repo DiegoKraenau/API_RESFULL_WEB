@@ -1,0 +1,17 @@
+npm install -g @vue/cli
+vue create ....
+npm install -g @vue/cli-service-global
+npm run serve
+vue ui
+
+--BOSTRAP
+
+npm i bootstrap jquery popper.js
+Add to src/main.js: import 'bootstrap'; import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+--EXTRAS
+npm install (para luego de hacer pull)
+
+--PARA HACER POST
+npm install vue-resource --save
