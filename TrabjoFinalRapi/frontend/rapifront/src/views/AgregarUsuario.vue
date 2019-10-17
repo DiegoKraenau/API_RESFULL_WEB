@@ -5,10 +5,10 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">RapiSolver</a>
+  <a class="navbar-brand" href="http://localhost:8080/Inicio">RapiSolver</a>
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Inicio Sesion</a>
+      <a class="nav-link" href="http://localhost:8080/Inicio">Inicio Sesion</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">¿Quienes somos?</a>

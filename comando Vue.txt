@@ -15,3 +15,5 @@ npm install (para luego de hacer pull)
 
 --PARA HACER POST
 npm install vue-resource --save
+
+npm install --save vue-plugin-load-script//

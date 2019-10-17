@@ -5,10 +5,10 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">RapiSolver</a>
+  <a class="navbar-brand" href="http://localhost:8080/Inicio">RapiSolver</a>
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Inicio Sesion</a>
+      <a class="nav-link" href="http://localhost:8080/Inicio">Inicio Sesion</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">¿Quienes somos?</a>
@@ -32,10 +32,15 @@
 		<div class="form-group">
 			<label for="exampleInputPassword1">Password</label> <input
 				type="password" class="form-control col-lg-3 col-md-3 col-xs-12"
-				id="exampleInputPassword1" placeholder="Password">
+				id="exampleInputPassword1" placeholder="Password">	
 		</div>
 
 		<button type="submit" class="btn btn-primary">Ingresar</button>
+		<br>
+		<br>
+		<a class="btn btn-secondary" href="http://localhost:8080/agregarUsuario">Registrarse</a>
+
+		
 </form>
 
 
@@ -65,4 +70,5 @@ export default {
 	left: 30% !important;
     
 }
+
 </style>
