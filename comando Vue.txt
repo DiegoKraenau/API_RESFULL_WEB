@@ -8,3 +8,7 @@ vue ui
 
 npm i bootstrap jquery popper.js
 Add to src/main.js: import 'bootstrap'; import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+--EXTRAS
+npm install (para luego de hacer pull)
