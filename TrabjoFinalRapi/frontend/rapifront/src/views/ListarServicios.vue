@@ -62,7 +62,7 @@
 								<td >{{detalle.serviceName}}</td>
 								<td >{{detalle.categoryName}}</td>
 								<td >{{detalle.cost}}</td>
-								<td><a href="" class="btn btn-success">Detallle</a>
+								<td><a :href="'/detalle/' + detalle.serviceDetailsId" class="btn btn-success">Detallle</a>
 								</td>								
 							</tr>
 						</tbody>
@@ -80,7 +80,8 @@ import axios from 'axios'
 export default {
     data(){
         return{
-            detalles:null
+			detalles:null
+
         }
     },
     mounted(){
