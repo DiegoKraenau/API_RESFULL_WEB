@@ -41,6 +41,14 @@ namespace RapiSolver.Api.Controllers
                 serviceCategoryService.Get(id)
             );
         }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            return Ok(
+                serviceCategoryService.Delete(id)
+            );
+        }
         
     }
 }
