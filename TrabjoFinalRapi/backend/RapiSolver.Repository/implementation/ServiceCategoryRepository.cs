@@ -16,6 +16,21 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
+            /* 
+            var result = new ServiceCategory();
+            try
+            {
+                result = context.categories.Single(x => x.Id == id);
+                context.categories.Remove(result);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+            return true;
+            */
+
             throw new System.NotImplementedException();
         }
 

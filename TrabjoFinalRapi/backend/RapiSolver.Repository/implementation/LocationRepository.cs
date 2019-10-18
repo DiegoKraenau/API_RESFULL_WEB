@@ -15,6 +15,7 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
+            /* 
             var result = new Location();
             try
             {
@@ -27,6 +28,9 @@ namespace RapiSolver.Repository.implementation
                 return false;
             }
             return true;
+            */
+
+            throw new System.NotImplementedException();
         }
       
         public Location Get(int id)

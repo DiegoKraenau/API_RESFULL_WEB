@@ -41,7 +41,8 @@ namespace RapiSolver.Api.Controllers
                 locationService.Get(id)
             );
         }
-        
+
+        /* 
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
@@ -49,6 +50,6 @@ namespace RapiSolver.Api.Controllers
                 locationService.Delete(id)
             );
         }
-
+        */
     }
 }

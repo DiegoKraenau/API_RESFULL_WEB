@@ -40,6 +40,14 @@ namespace RapiSolver.Api.Controllers
                 rolService.Get(id)
             );
         }
-        
+        /* 
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            return Ok(
+                rolService.Delete(id)
+            );
+        }
+        */
     }
 }
