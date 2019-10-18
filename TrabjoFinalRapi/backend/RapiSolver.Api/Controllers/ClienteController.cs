@@ -30,6 +30,17 @@ namespace RapiSolver.Api.Controllers
                 clienteService.Save(cliente)
             );
         }
+
+        //[HttpGet("{id}")]
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            return Ok(
+                clienteService.Delete(id)
+            );
+        }
+
+
         
     }
 }
