@@ -12,15 +12,7 @@ Vue.use(VueResource)
 
 Vue.use(LoadScript);
 
-Vue.loadScript("../assets/vendor/jquery/jquery.min.js")
-Vue.loadScript("../assets/vendor/bootstrap/js/bootstrap.bundle.min.js")
 
-Vue.loadScript("../assets/vendor/jquery-easing/jquery.easing.min.js")
-
-Vue.loadScript("../assets/js/jqBootstrapValidation.js")
-Vue.loadScript("../assets/js/contact_me.js")
-
-Vue.loadScript("../assets/js/agency.min.js")
 
 new Vue({
   router,
