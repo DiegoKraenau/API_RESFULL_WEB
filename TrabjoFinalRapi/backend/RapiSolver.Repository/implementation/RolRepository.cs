@@ -15,7 +15,18 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            var result = new Cliente();
+            try
+            {
+                result = context.roles.Single(x => x.Id == id);
+                context.roles.Remove(result);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+            return true;
         }
 
         public Rol Get(int id)
