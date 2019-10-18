@@ -42,6 +42,7 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /*
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
@@ -49,6 +50,7 @@ namespace RapiSolver.Api.Controllers
                 serviceCategoryService.Delete(id)
             );
         }
+         */
         
     }
 }

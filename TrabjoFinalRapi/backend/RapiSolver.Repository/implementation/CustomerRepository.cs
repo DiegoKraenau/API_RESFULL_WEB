@@ -18,6 +18,7 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
+            /* 
             var result = new Customer();
             try
             {
@@ -30,6 +31,8 @@ namespace RapiSolver.Repository.implementation
                 return false;
             }
             return true;
+            */
+            throw new System.NotImplementedException();
         }
 
         public Customer Get(int id)

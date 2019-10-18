@@ -16,6 +16,7 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
+            /* 
             var result = new ServiceCategory();
             try
             {
@@ -28,6 +29,9 @@ namespace RapiSolver.Repository.implementation
                 return false;
             }
             return true;
+            */
+
+            throw new System.NotImplementedException();
         }
 
         public ServiceCategory Get(int id)
