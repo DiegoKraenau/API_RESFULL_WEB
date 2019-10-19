@@ -33,6 +33,11 @@ namespace RapiSolver.Service.implementation
             return usuarioRepository.GetAllUsuarios();
         }
 
+        public UsuarioViewModel getLoginUsuario(string name, string password)
+        {
+            return usuarioRepository.getLoginUsuario(name,password);
+        }
+
         public bool Save(Usuario entity)
         {
             return usuarioRepository.Save(entity);

@@ -58,6 +58,21 @@ namespace RapiSolver.Repository.implementation
              });
         }
 
+        public UsuarioViewModel getLoginUsuario(string name, string password)
+        {
+             var usuario = context.usuarios.
+                            Include(x=>x.Rol).
+                            Single(x => x.UserName==name && x.UserPassword ==password);
+
+            UsuarioViewModel usuario1=new UsuarioViewModel();
+            usuario1.UsuarioId=usuario.UsuarioId;
+            usuario1.UserName=usuario.UserName;
+            usuario1.UserPassword=usuario.UserPassword;
+            usuario1.RolId=usuario.RolId;
+
+            return usuario1;
+        }
+
         public bool Save(Usuario entity)
         {
             try

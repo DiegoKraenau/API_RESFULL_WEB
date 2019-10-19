@@ -31,7 +31,6 @@ namespace RapiSolver.Repository.implementation
 
             catch (System.Exception)
             {
-
                 throw;
             }
             return result;
