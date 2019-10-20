@@ -14,7 +14,7 @@ namespace RapiSolver.Entity
         public string Description{get;set;}
 
         
-        public double Cost{get;set;}
+        public string Cost{get;set;}
 
         public ServiceCategory ServiceCategory{get;set;}
 

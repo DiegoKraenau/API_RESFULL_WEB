@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using RapiSolver.Entity;
+using RapiSolver.Repository.ViewModel;
 using RapiSolver.Service;
 
 namespace RapiSolver.Api.Controllers
@@ -24,10 +25,10 @@ namespace RapiSolver.Api.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] ServiceDetails serviceDetails)
+        public ActionResult Post([FromBody] ServiceDetailsViewModel serviceDetails)
         {
             return Ok(
-                serviceDetailsService.Save(serviceDetails)
+                serviceDetailsService.SaveServicio(serviceDetails)
             );
         }
 

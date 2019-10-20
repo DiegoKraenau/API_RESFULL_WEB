@@ -114,10 +114,48 @@ namespace RapiSolver.Repository.implementation
         {
              try
             {
+                
                 entity.Servicio=context.servicios.Find(entity.ServicioId);
                 entity.Supplier=context.suppliers.Find(entity.SupplierId);
                 
                 context.Add(entity);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+
+                return false;
+            }
+            return true;
+        }
+
+        public bool SaveServicio(ServiceDetailsViewModel entity)
+        {
+            try
+            {
+               
+
+                ServiceCategory sc1=new ServiceCategory();
+                sc1=context.categories.Single(o=>o.CategoryName==entity.CategoryName);
+
+                Servicio s1=new Servicio();
+                s1.Cost=entity.Cost;
+                s1.Description=entity.Description;
+                s1.Name=entity.ServiceName;
+                s1.ServiceCategoryId=sc1.ServiceCategoryId;
+                s1.ServiceCategory=sc1;
+
+                context.Add(s1);
+                context.SaveChanges();
+
+                ServiceDetails sv1=new ServiceDetails();
+                sv1.SupplierId=entity.SupplierId;
+                sv1.Supplier=context.suppliers.Find(entity.SupplierId);
+                sv1.ServicioId=context.servicios.OrderByDescending (o => o.ServicioId).First().ServicioId;
+                sv1.Servicio=s1;
+
+                context.Add(sv1);
+     
                 context.SaveChanges();
             }
             catch (System.Exception)

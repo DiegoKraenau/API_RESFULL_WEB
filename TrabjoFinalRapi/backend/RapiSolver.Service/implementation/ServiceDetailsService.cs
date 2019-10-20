@@ -43,6 +43,11 @@ namespace RapiSolver.Service.implementation
             return serviceDetailsRepository.Save(entity);
         }
 
+        public bool SaveServicio(ServiceDetailsViewModel entity)
+        {
+            return serviceDetailsRepository.SaveServicio(entity);
+        }
+
         public bool Update(ServiceDetails entity)
         {
             return serviceDetailsRepository.Update(entity);

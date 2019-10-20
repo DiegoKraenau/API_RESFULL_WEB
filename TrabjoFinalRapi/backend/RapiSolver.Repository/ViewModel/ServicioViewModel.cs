@@ -11,7 +11,7 @@ namespace RapiSolver.Repository.ViewModel
         public string Description{get;set;}
 
         
-        public double Cost{get;set;}
+        public string Cost{get;set;}
 
         public int ServiceCategoryId{get;set;}
 

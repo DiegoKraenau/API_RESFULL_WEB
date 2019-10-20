@@ -9,5 +9,7 @@ namespace RapiSolver.Service
          IEnumerable<ServiceDetailsViewModel> GetAllDetails();
 
          IEnumerable<ServiceDetailsViewModel> GetServicioById(int id);
+
+         bool SaveServicio(ServiceDetailsViewModel entity);
     }
 }
