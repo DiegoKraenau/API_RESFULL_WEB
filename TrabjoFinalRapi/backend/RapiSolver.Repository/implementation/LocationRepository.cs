@@ -66,7 +66,26 @@ namespace RapiSolver.Repository.implementation
 
         public bool Update(Location entity)
         {
-            throw new System.NotImplementedException();
+            try{
+                    var locationOrigina = context.locations.Single(x => x.LocationId == entity.LocationId);
+
+                    locationOrigina.LocationId = entity.LocationId;
+                    locationOrigina.Country = entity.Country;
+                    locationOrigina.City = entity.City;
+                    locationOrigina.State = entity.State;
+                    locationOrigina.Address = entity.Address;
+
+
+                    context.Update(locationOrigina);
+                    context.SaveChanges();
+
+                }
+                catch(System.Exception)
+                {
+                    return false;
+                }
+                return true;
+        }
         }
     }
 }
