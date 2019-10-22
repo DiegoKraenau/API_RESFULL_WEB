@@ -15,6 +15,10 @@ namespace RapiSolver.Api.Controllers
             this.servicioService = servicioService;
         }
 
+        /// <summary>
+        /// It allows  to obtain all the services that were added
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult Get()
         {
@@ -23,6 +27,11 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+
+        /// <summary>
+        /// It allows to add a service
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] Servicio servicio)
         {
@@ -43,7 +52,10 @@ namespace RapiSolver.Api.Controllers
         */
 
         
-
+        /// <summary>
+        /// It allows to search a service by their corresponding name
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("{name}")]
         public ActionResult Get([FromRoute] string name)
         {

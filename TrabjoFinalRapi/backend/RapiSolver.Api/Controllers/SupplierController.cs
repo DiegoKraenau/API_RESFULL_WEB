@@ -17,7 +17,10 @@ namespace RapiSolver.Api.Controllers
             this.supplierService = supplierService;
         }
         
-        
+         /// <summary>
+        /// It allows  to obtain all the suppliers that were added
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult Get()
         {
@@ -26,6 +29,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to add a supplier
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] Supplier supplier)
         {
@@ -34,6 +41,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to search a supplier by their corresponding Id
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {

@@ -10,6 +10,7 @@
         "tags": [
           "Cliente"
         ],
+        "summary": "Gets All the heroes from the Justice league",
         "responses": {
           "200": {
             "description": "Success"
@@ -51,6 +52,7 @@
         "tags": [
           "Customer"
         ],
+        "summary": "It allows to obtain all the customers",
         "responses": {
           "200": {
             "description": "Success"
@@ -61,6 +63,7 @@
         "tags": [
           "Customer"
         ],
+        "summary": "It allows to add a customer",
         "requestBody": {
           "content": {
             "application/json": {
@@ -92,6 +95,7 @@
         "tags": [
           "Customer"
         ],
+        "summary": "It allows  to search for a customer by their corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -115,6 +119,7 @@
         "tags": [
           "Location"
         ],
+        "summary": "It allows to obtain all the locations",
         "responses": {
           "200": {
             "description": "Success"
@@ -125,6 +130,7 @@
         "tags": [
           "Location"
         ],
+        "summary": "It allows to add a location",
         "requestBody": {
           "content": {
             "application/json": {
@@ -156,6 +162,7 @@
         "tags": [
           "Location"
         ],
+        "summary": "It allows  to search for a location by their corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -179,6 +186,7 @@
         "tags": [
           "Rol"
         ],
+        "summary": "It allows to obtain all the roles",
         "responses": {
           "200": {
             "description": "Success"
@@ -189,6 +197,7 @@
         "tags": [
           "Rol"
         ],
+        "summary": "It allows to add a role",
         "requestBody": {
           "content": {
             "application/json": {
@@ -220,6 +229,7 @@
         "tags": [
           "Rol"
         ],
+        "summary": "It allows  to search for a role by their corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -243,6 +253,7 @@
         "tags": [
           "ServiceCategory"
         ],
+        "summary": "It allows to obtain all the  categories that were added",
         "responses": {
           "200": {
             "description": "Success"
@@ -253,6 +264,7 @@
         "tags": [
           "ServiceCategory"
         ],
+        "summary": "It allows to add a category to a servicie",
         "requestBody": {
           "content": {
             "application/json": {
@@ -284,6 +296,7 @@
         "tags": [
           "ServiceCategory"
         ],
+        "summary": "It allows to search for a category  by their corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -307,6 +320,7 @@
         "tags": [
           "ServiceDetails"
         ],
+        "summary": "It allows  to obtain all the service details from a supplier with a service",
         "responses": {
           "200": {
             "description": "Success"
@@ -317,6 +331,7 @@
         "tags": [
           "ServiceDetails"
         ],
+        "summary": "It allows to add a service detail  between a supplier with a service",
         "requestBody": {
           "content": {
             "application/json": {
@@ -348,6 +363,7 @@
         "tags": [
           "ServiceDetails"
         ],
+        "summary": "It allows to obtain a service detail between a supplier with a service by its corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -371,6 +387,7 @@
         "tags": [
           "Servicio"
         ],
+        "summary": "It allows  to obtain all the services that were added",
         "responses": {
           "200": {
             "description": "Success"
@@ -381,6 +398,7 @@
         "tags": [
           "Servicio"
         ],
+        "summary": "It allows to add a service",
         "requestBody": {
           "content": {
             "application/json": {
@@ -412,6 +430,7 @@
         "tags": [
           "Servicio"
         ],
+        "summary": "It allows to search a service by their corresponding name",
         "parameters": [
           {
             "name": "name",
@@ -434,6 +453,7 @@
         "tags": [
           "Supplier"
         ],
+        "summary": "It allows  to obtain all the suppliers that were added",
         "responses": {
           "200": {
             "description": "Success"
@@ -444,6 +464,7 @@
         "tags": [
           "Supplier"
         ],
+        "summary": "It allows to add a supplier",
         "requestBody": {
           "content": {
             "application/json": {
@@ -475,6 +496,7 @@
         "tags": [
           "Supplier"
         ],
+        "summary": "It allows to search a supplier by their corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -498,6 +520,7 @@
         "tags": [
           "Usuario"
         ],
+        "summary": "It allows  to obtain all the users that were added",
         "responses": {
           "200": {
             "description": "Success"
@@ -508,6 +531,7 @@
         "tags": [
           "Usuario"
         ],
+        "summary": "It allows to add a user",
         "requestBody": {
           "content": {
             "application/json": {
@@ -539,6 +563,7 @@
         "tags": [
           "Usuario"
         ],
+        "summary": "It allows to search a user by their corresponding Id",
         "parameters": [
           {
             "name": "id",
@@ -553,44 +578,6 @@
         "responses": {
           "200": {
             "description": "Success"
-          }
-        }
-      }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -984,29 +971,6 @@
             "nullable": true
           },
           "contraseña": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
             "type": "string",
             "nullable": true
           }

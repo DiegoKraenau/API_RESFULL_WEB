@@ -16,6 +16,10 @@ namespace RapiSolver.Api.Controllers
             this.usuarioService = usuarioService;
         }
 
+         /// <summary>
+        /// It allows  to obtain all the users that were added
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult Get()
         {
@@ -24,7 +28,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
-         
+        /// <summary>
+        /// It allows to add a user
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] Usuario usuario)
         {
@@ -33,6 +40,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to search a user by their corresponding Id
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {

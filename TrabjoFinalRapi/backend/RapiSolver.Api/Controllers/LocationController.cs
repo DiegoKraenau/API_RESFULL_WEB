@@ -17,6 +17,10 @@ namespace RapiSolver.Api.Controllers
             this.locationService = locationService;
         }
 
+        /// <summary>
+        /// It allows to obtain all the locations
+        /// </summary>
+        /// <returns></returns>
          [HttpGet]
         public ActionResult Get()
         {
@@ -25,6 +29,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to add a location
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] Location location)
         {
@@ -33,7 +41,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
-       
+        /// <summary>
+        /// It allows  to search for a location by their corresponding Id
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {

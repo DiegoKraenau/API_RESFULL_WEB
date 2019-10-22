@@ -10,11 +10,16 @@ namespace RapiSolver.Api.Controllers
     {
        private IClienteService clienteService;
 
+        
         public ClienteController(IClienteService clienteService)
         {
             this.clienteService = clienteService;
         }
 
+         /// <summary>
+        /// Gets All the heroes from the Justice league
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult Get()
         {

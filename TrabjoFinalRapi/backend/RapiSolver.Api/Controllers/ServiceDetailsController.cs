@@ -16,6 +16,10 @@ namespace RapiSolver.Api.Controllers
             this.serviceDetailsService = serviceDetailsService;
         }
 
+         /// <summary>
+        /// It allows  to obtain all the service details from a supplier with a service
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult Get()
         {
@@ -24,6 +28,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to add a service detail  between a supplier with a service
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] ServiceDetailsViewModel serviceDetails)
         {
@@ -32,6 +40,10 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to obtain a service detail between a supplier with a service by its corresponding Id
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult Get([FromRoute] int id)
         {
