@@ -1,0 +1,64 @@
+Rol:
+{
+  "rolDescription": "Puede publicar",
+  "publish": true
+}
+{
+  "rolDescription": "No puede publicar",
+  "publish": false
+}
+
+ServiceCategory:
+{
+  "categoryName": "Electricidad",
+  "categoryDescription": "Se realizan servicios relacionados a electricidad"
+  
+}
+
+Location:
+{
+  "country": "Perú",
+  "city": "Lima",
+  "state": "Chorrillos",
+  "address": "Av.sol"
+}
+
+Customer:
+{
+
+  "name": "Diego Armando",
+  "lastName": "Kraenau Rodriguez",
+  "email": "diegokraenau@gmial.com",
+  "phone": "7370461",
+  "age": "18",
+  "genger": "Masculino",
+  "country": "Perú",
+  "city": "Lima",
+  "state": "Chorrillos",
+  "address": "Av.sol",
+  "contraseña": "diego2009"
+}
+
+Supplier:
+ {
+  "name": "Jorge Mario",
+  "lastName": "Kraenau Rodriguez",
+  "email": "jorge@gmail.com",
+  "phone": "456457",
+  "age": "68",
+  "genger": "Masculino",
+  "country": "Perú",
+  "state": "Lima",
+  "city": "Surco",
+  "address": "Av.gaviotas",
+  "contraseña": "jorge2009"
+}
+ServiceDetails:
+{
+
+  "supplierId": 1,
+  "serviceName": "Electricista"
+  "cost": "40",
+  "categoryName": "Electricidad",
+  "description":"Servicios de electricista al menos precio"
+}

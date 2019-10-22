@@ -71,12 +71,36 @@ namespace RapiSolver.Repository.implementation
         {
              try
             {
-                entity.Location=context.locations.Find(entity.LocationId);
+               Usuario u1=new Usuario();
+                u1.UserName=entity.Email;
+                u1.UserPassword=entity.Contraseña;
+                u1.RolId=2;
+                u1.Rol=context.roles.Find(u1.RolId);
+
+                context.Add(u1);
+                context.SaveChanges();
+
+                entity.UsuarioId=context.usuarios.Single(x=>x.UserName==entity.Email).UsuarioId;
+
+                Location l1=new Location();
+                l1.Country=entity.Country;
+                l1.City=entity.City;
+                l1.State=entity.State;
+                l1.Address=entity.Address;
+
+                context.Add(l1);
+                context.SaveChanges();
+        
+                entity.Location=l1;
+                entity.LocationId=1;
+               
                 entity.Usuario=context.usuarios.Find(entity.UsuarioId);
-              //  entity.ServiciosDetails=context.serviceDetails.Where(y=>y.SupplierId==entity.SupplierId).ToList();
                 
                 context.Add(entity);
                 context.SaveChanges();
+              //  entity.ServiciosDetails=context.serviceDetails.Where(y=>y.SupplierId==entity.SupplierId).ToList();
+                
+              
             }
             catch (System.Exception)
             {
