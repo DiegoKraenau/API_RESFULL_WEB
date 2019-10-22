@@ -16,6 +16,8 @@ using RapiSolver.Repository.context;
 using RapiSolver.Repository.implementation;
 using RapiSolver.Service;
 using RapiSolver.Service.implementation;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
 
 namespace RapiSolver.Api
 {
@@ -71,6 +73,25 @@ namespace RapiSolver.Api
             services.AddControllers();
 
 
+            /*services.AddSwaggerGen(swagger =>
+            {
+                var contact = new Contact() { Name = SwaggerConfiguration.ContactName };
+                swagger.SwaggerDoc(SwaggerConfiguration.DocNameV1,
+                                    new Info
+                                    {
+                                        Title = SwaggerConfiguration.DocInfoTitle,
+                                        Version = SwaggerConfiguration.DocInfoVersion,
+                                        Description = SwaggerConfiguration.DocInfoDescription,
+                                        Contact = contact
+                                    }
+                                    );
+            });*/
+
+            services.AddSwaggerGen(c =>
+{
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+});
+
            
         }
 
@@ -93,6 +114,13 @@ namespace RapiSolver.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint(SwaggerConfiguration.EndpointUrl, SwaggerConfiguration.EndpointDescription);
             });
 
             
