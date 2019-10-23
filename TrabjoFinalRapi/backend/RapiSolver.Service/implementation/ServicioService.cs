@@ -38,6 +38,11 @@ namespace RapiSolver.Service.implementation
             return servicioRepository.GetServiciosByCategory(name);
         }
 
+        public IEnumerable<ServicioViewModel> GetServiciosByIdSupplier(int id)
+        {
+            return servicioRepository.GetServiciosByIdSupplier(id);
+        }
+
         public bool Save(Servicio entity)
         {
             return servicioRepository.Save(entity);

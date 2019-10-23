@@ -9,5 +9,7 @@ namespace RapiSolver.Repository
          IEnumerable<ServicioViewModel> GetAllServicios();
 
          IEnumerable<ServicioViewModel> GetServiciosByCategory(string name);
+
+         IEnumerable<ServicioViewModel> GetServiciosByIdSupplier(int id);
     }
 }

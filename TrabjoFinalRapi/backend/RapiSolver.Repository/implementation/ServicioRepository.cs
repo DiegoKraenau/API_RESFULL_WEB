@@ -80,6 +80,25 @@ namespace RapiSolver.Repository.implementation
              });
         }
 
+        public IEnumerable<ServicioViewModel> GetServiciosByIdSupplier(int id)
+        {
+            var detalles = context.serviceDetails
+                .Include (o => o.Servicio)
+                .Include(o=>o.Servicio.ServiceCategory)
+                .Where(o=>o.SupplierId==id)
+                .ToList ();
+
+            return detalles.Select (o => new ServicioViewModel {
+                    ServicioId = o.ServicioId,
+                    Name = o.Servicio.Name,
+                    Description = o.Servicio.Description,
+                    Cost = o.Servicio.Cost,
+                    ServiceCategoryId=o.Servicio.ServiceCategoryId,
+                    CategoryName=o.Servicio.ServiceCategory.CategoryName
+
+             });
+        }
+
         public bool Save(Servicio entity)
         {
             try

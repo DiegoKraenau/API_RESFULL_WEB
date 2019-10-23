@@ -12,10 +12,17 @@ namespace RapiSolver.Api.Controllers
     {
         private ISupplierService supplierService;
 
-        public SupplierController(ISupplierService supplierService)
+         private IServicioService servicioService;
+
+        public SupplierController(ISupplierService supplierService,IServicioService servicioService)
         {
             this.supplierService = supplierService;
+            this.servicioService = servicioService;
         }
+
+       
+
+        
         
          /// <summary>
         /// It allows  to obtain all the suppliers that were added
@@ -52,5 +59,20 @@ namespace RapiSolver.Api.Controllers
                 supplierService.Get(id)
             );
         }
+
+
+        /// <summary>
+        /// It allows to obtain all the services related to a supplier
+        /// </summary>
+        /// <returns></returns>
+        [Route("{id}/servicios")]
+        [HttpGet]
+        public ActionResult Get2(int id)
+        {
+            return Ok(
+                servicioService.GetServiciosByIdSupplier(id)
+            );
+        }
+        
     }
 }
