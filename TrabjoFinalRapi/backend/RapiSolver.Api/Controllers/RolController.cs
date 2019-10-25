@@ -41,7 +41,6 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
-
         /// <summary>
         /// It allows  to search for a role by their corresponding Id
         /// </summary>

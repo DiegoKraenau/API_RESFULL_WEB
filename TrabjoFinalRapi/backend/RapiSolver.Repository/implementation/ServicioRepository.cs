@@ -18,7 +18,17 @@ namespace RapiSolver.Repository.implementation
         }
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            try {
+
+                var result = context.servicios.Single(x => x.ServicioId == id);
+                context.Remove(result);
+                context.SaveChanges();
+
+            }
+            catch(System.Exception){
+                return false;
+            }
+            return true;
         }
 
         public Servicio Get(int id)

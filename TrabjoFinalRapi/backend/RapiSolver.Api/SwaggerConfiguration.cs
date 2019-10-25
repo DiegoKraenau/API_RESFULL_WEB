@@ -11,8 +11,6 @@ namespace RapiSolver.Api
         
         public const string ContactName = "Grupo Web";
 
-        
-
        
         public const string DocNameV1 = "v1";
 

@@ -49,7 +49,17 @@ namespace RapiSolver.Repository.implementation
 
         public IEnumerable<Supplier> GetAll()
         {
-            throw new System.NotImplementedException();
+            var result = new List<Supplier>();
+            try{
+                result = context.suppliers.ToList();
+
+            }
+            catch(System.Exception){
+                
+                throw;
+            }
+            return result;
+            
         }
 
         public IEnumerable<SupplierViewModel> GetAllSuppliers()
