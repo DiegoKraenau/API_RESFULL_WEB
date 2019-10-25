@@ -67,7 +67,19 @@ namespace RapiSolver.Repository.implementation
 
         public bool Update(ServiceCategory entity)
         {
-            throw new System.NotImplementedException();
+            try{
+                var category = context.categories.Single(x=>x.ServiceCategoryId == entity.ServiceCategoryId);
+                category.ServiceCategoryId = entity.ServiceCategoryId;
+                category.CategoryName = entity.CategoryName;
+                category.CategoryDescription = entity.CategoryDescription;
+
+                context.Update(category);
+                context.SaveChanges();
+
+            }catch(System.Exception){
+                return false;
+            }
+            return true;
         }
     }
 }
