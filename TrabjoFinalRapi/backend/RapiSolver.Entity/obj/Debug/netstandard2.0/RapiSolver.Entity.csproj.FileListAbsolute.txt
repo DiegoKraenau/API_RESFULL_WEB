@@ -38,3 +38,11 @@ C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiS
 C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfo.cs
 C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.dll
 C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.deps.json
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.csprojAssemblyReference.cache
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfo.cs
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.pdb

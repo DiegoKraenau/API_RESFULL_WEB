@@ -15,7 +15,18 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            var objEli = new Location();
+            try {
+
+                objEli = context.locations.Single(x=> x.LocationId == id);
+                context.locations.Remove(objEli);
+                context.SaveChanges();
+
+            }
+            catch(System.Exception){
+                return false;
+            }
+            return true;
         }
       
         public Location Get(int id)

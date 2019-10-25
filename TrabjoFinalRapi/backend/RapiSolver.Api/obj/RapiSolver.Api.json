@@ -520,6 +520,7 @@
         "tags": [
           "Supplier"
         ],
+        "summary": "It allows to obtain all the services related to a supplier",
         "parameters": [
           {
             "name": "id",

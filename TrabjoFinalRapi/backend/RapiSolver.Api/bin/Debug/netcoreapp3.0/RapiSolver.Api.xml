@@ -136,6 +136,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.SupplierController.Get2(System.Int32)">
+            <summary>
+            It allows to obtain all the services related to a supplier
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.UsuarioController.Get">
             <summary>
             It allows  to obtain all the users that were added

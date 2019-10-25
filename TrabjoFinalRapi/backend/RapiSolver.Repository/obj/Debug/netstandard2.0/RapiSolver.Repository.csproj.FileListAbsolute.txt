@@ -53,3 +53,14 @@ C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiS
 C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CopyComplete
 C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.dll
 C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.deps.json
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csprojAssemblyReference.cache
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.AssemblyInfo.cs
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CopyComplete
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\user\Desktop\carpeta\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.pdb
