@@ -15,11 +15,11 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
-            var objEli = new Location();
+            
             try {
 
-                objEli = context.locations.Single(x=> x.LocationId == id);
-                context.locations.Remove(objEli);
+                var objEli = context.locations.Single(x=> x.LocationId == id);
+                context.Update(objEli);
                 context.SaveChanges();
 
             }
@@ -77,7 +77,22 @@ namespace RapiSolver.Repository.implementation
 
         public bool Update(Location entity)
         {
-            throw new System.NotImplementedException();
+            try{
+
+                var local = context.locations.Single(x => x.LocationId == entity.LocationId);
+                local.LocationId = entity.LocationId;
+                local.Country = entity.Country;
+                local.Address = entity.Address;
+                local.City = entity.City;
+                local.State = entity.State;
+
+                context.Update(local);
+                context.SaveChanges();
+            }
+            catch(System.Exception){
+                return false;
+            }
+            return true;
         }
     }
 }
