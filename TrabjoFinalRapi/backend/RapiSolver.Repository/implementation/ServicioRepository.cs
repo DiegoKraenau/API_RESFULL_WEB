@@ -127,7 +127,21 @@ namespace RapiSolver.Repository.implementation
 
         public bool Update(Servicio entity)
         {
-            throw new System.NotImplementedException();
+            try{
+
+                var service = context.servicios.Single(x => x.ServicioId == entity.ServicioId);
+                service.ServicioId = entity.ServicioId;
+                service.Name = entity.Name;
+                service.Description = entity.Description;
+                service.Cost = entity.Cost;
+
+                context.Update(service);
+                context.SaveChanges();
+            }
+            catch(System.Exception){
+                return false;
+            }
+            return true;
         }
     }
 }
