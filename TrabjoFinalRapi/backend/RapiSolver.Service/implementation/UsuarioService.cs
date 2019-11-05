@@ -48,6 +48,9 @@ namespace RapiSolver.Service.implementation
             return usuarioRepository.Update(entity);
         }
 
-       
+        public bool UpdateRole(int id)
+        {
+            return usuarioRepository.UpdateRole(id);
+        }
     }
 }

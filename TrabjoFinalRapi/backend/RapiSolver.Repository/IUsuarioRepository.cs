@@ -8,5 +8,7 @@ namespace RapiSolver.Repository
     {
         IEnumerable<UsuarioViewModel> GetAllUsuarios();
         UsuarioViewModel getLoginUsuario(string name,string password);
+
+        bool UpdateRole(int id);
     }
 }

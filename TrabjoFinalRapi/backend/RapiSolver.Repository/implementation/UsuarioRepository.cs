@@ -94,5 +94,26 @@ namespace RapiSolver.Repository.implementation
         {
             throw new System.NotImplementedException();
         }
+
+        public bool UpdateRole(int id)
+        {
+            try
+            {
+                Usuario u1=context.usuarios.Find(id);
+                Rol r1=context.roles.Find(2);
+                u1.Rol=r1;
+                u1.RolId=2;
+                
+                
+                context.usuarios.Update(u1);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+
+                return false;
+            }
+            return true;
+        }
     }
 }

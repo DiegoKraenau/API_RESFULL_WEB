@@ -23,6 +23,8 @@ namespace RapiSolver.Repository.context
          public DbSet<Location> locations{get;set;}
 
          public DbSet<Recommendation> recommendations{get;set;}
+
+         public DbSet<Reservation> reservations{get;set;}
         
 
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base (options) {
@@ -97,7 +99,15 @@ namespace RapiSolver.Repository.context
 
          modelBuilder.Entity<Recommendation>().HasOne(x=>x.Usuario);
     
-   
+         modelBuilder.Entity<Reservation>(b =>
+        {
+             b.HasKey(e => e.ReservationId);
+             b.Property(e => e.ReservationId).ValueGeneratedOnAdd();
+         });
+
+         modelBuilder.Entity<Reservation>().HasOne(x=>x.Supplier);
+
+         modelBuilder.Entity<Reservation>().HasOne(x=>x.Usuario);
         }
 
     }

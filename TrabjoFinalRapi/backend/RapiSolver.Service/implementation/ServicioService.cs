@@ -43,6 +43,11 @@ namespace RapiSolver.Service.implementation
             return servicioRepository.GetServiciosByIdSupplier(id);
         }
 
+        public IEnumerable<ServicioViewModel> GetServiciosByUserId(int id)
+        {
+            return servicioRepository.GetServiciosByUserId(id);
+        }
+
         public bool Save(Servicio entity)
         {
             return servicioRepository.Save(entity);
@@ -51,6 +56,11 @@ namespace RapiSolver.Service.implementation
         public bool Update(Servicio entity)
         {
             return servicioRepository.Update(entity);
+        }
+
+        public bool UpdateServicio(ServicioViewModel servicioViewModel)
+        {
+            return servicioRepository.UpdateServicio(servicioViewModel);
         }
     }
 }

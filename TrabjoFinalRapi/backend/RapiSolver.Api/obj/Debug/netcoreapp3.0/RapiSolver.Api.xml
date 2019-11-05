@@ -28,6 +28,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.CustomersController.Get2(System.Int32)">
+            <summary>
+            It allows to obtain a customer by his user ID
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.LocationsController.Get">
             <summary>
             It allows to obtain all the locations
@@ -55,6 +61,24 @@
         <member name="M:RapiSolver.Api.Controllers.RecommendationController.Get(System.Int32)">
             <summary>
             It allows  to obtain all the recommendations by supplierId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.ReservationsController.Get(System.Int32)">
+            <summary>
+            It allows to reservations by user ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.ReservationsController.Delete(System.Int32)">
+            <summary>
+            It allows to delete a reservation by his ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.ReservationsController.Post(RapiSolver.Entity.Reservation)">
+            <summary>
+            It allows to add a reservation
             </summary>
             <returns></returns>
         </member>
@@ -108,7 +132,7 @@
         </member>
         <member name="M:RapiSolver.Api.Controllers.ServiceDetailsController.Get(System.Int32)">
             <summary>
-            It allows to obtain a service detail between a supplier with a service by its corresponding Id
+            It allows to obtain a service detail view model between a supplier with a service by its corresponding Id
             </summary>
             <returns></returns>
         </member>
@@ -130,6 +154,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.ServiceDetailsController.Get5(System.Int32)">
+            <summary>
+            It allows to obtain a  service details by his ID
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.ServiciosController.Get">
             <summary>
             It allows  to obtain all the services that were added
@@ -145,6 +175,24 @@
         <member name="M:RapiSolver.Api.Controllers.ServiciosController.Get(System.String)">
             <summary>
             It allows to search a service by their corresponding name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.ServiciosController.Get2(System.Int32)">
+            <summary>
+            It allows to obtain all the services  by their user Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.ServiciosController.Get3(System.Int32)">
+            <summary>
+            It allows to obtain a service by  his ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.ServiciosController.Put(RapiSolver.Repository.ViewModel.ServicioViewModel)">
+            <summary>
+            It allows to update a service 
             </summary>
             <returns></returns>
         </member>
@@ -172,6 +220,24 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.SuppliersController.Get3(System.String)">
+            <summary>
+            It allows to obtain all the suppliers by their surname
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.SuppliersController.Get4(System.Int32)">
+            <summary>
+            It allows to obtain a supplier view model by his user ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.SuppliersController.Get5(System.Int32)">
+            <summary>
+            It allows to obtain a original supplier  by his user ID
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.UsuariosController.Get">
             <summary>
             It allows  to obtain all the users that were added
@@ -187,6 +253,12 @@
         <member name="M:RapiSolver.Api.Controllers.UsuariosController.Get(System.Int32)">
             <summary>
             It allows to search a user by their corresponding Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.UsuariosController.Put(System.Int32)">
+            <summary>
+            It allows to update the role of  a user by their user ID
             </summary>
             <returns></returns>
         </member>

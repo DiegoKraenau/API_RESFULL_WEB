@@ -28,9 +28,24 @@ namespace RapiSolver.Service.implementation
             return supplierRepository.GetAll();
         }
 
+        public IEnumerable<SupplierViewModel> GetAllSupplierBySurname(string apellido)
+        {
+            return supplierRepository.GetAllSupplierBySurname(apellido);
+        }
+
         public IEnumerable<SupplierViewModel> GetAllSuppliers()
         {
             return supplierRepository.GetAllSuppliers();
+        }
+
+        public IEnumerable<SupplierViewModel> GetSupplierByUserId(int id)
+        {
+            return supplierRepository.GetSupplierByUserId(id);
+        }
+
+        public Supplier GetSupplierOriginialByUserId(int id)
+        {
+            return supplierRepository.GetSupplierOriginialByUserId(id);
         }
 
         public bool Save(Supplier entity)

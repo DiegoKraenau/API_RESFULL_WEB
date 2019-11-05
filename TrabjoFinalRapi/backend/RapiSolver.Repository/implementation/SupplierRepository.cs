@@ -42,6 +42,31 @@ namespace RapiSolver.Repository.implementation
             throw new System.NotImplementedException();
         }
 
+        public IEnumerable<SupplierViewModel> GetAllSupplierBySurname(string apellido)
+        {
+            var suppliers = context.suppliers
+                .Include (o => o.Usuario)
+                .Include(o=>o.Location)
+                .OrderByDescending (o => o.SupplierId)
+                .Where(o=>o.LastName==apellido)
+                .ToList ();
+
+            return suppliers.Select (o => new SupplierViewModel {
+                    SupplierId = o.SupplierId,
+                    Name = o.Name,
+                    LastName = o.LastName,
+                    Email = o.Email,
+                    Phone=o.Phone,
+                    Age=o.Age,
+                    Genger=o.Genger,
+                    UsuarioId=o.UsuarioId,
+                    LocationId=o.LocationId,
+                    UserName=o.Usuario.UserName,
+                    Country=o.Location.Country,
+                //    ServiciosDetails=context.serviceDetails.ToList() No se puede pasar listas al json
+             });
+        }
+
         public IEnumerable<SupplierViewModel> GetAllSuppliers()
         {
            var suppliers = context.suppliers
@@ -65,6 +90,46 @@ namespace RapiSolver.Repository.implementation
                     Country=o.Location.Country,
                 //    ServiciosDetails=context.serviceDetails.ToList() No se puede pasar listas al json
              });
+        }
+
+        public  IEnumerable<SupplierViewModel> GetSupplierByUserId(int id)
+        {
+            var suppliers = context.suppliers
+                .Include (o => o.Usuario)
+                .Include(o=>o.Location)
+                .OrderByDescending (o => o.SupplierId)
+                .Where(o=>o.UsuarioId==id)
+                .ToList ();
+
+            return suppliers.Select (o => new SupplierViewModel {
+                    SupplierId = o.SupplierId,
+                    Name = o.Name,
+                    LastName = o.LastName,
+                    Email = o.Email,
+                    Phone=o.Phone,
+                    Age=o.Age,
+                    Genger=o.Genger,
+                    UsuarioId=o.UsuarioId,
+                    LocationId=o.LocationId,
+                    UserName=o.Usuario.UserName,
+                    Country=o.Location.Country,
+                //    ServiciosDetails=context.serviceDetails.ToList() No se puede pasar listas al json
+             });
+        }
+
+        public Supplier GetSupplierOriginialByUserId(int id)
+        {
+            var result = new Supplier();
+            try
+            {
+                result = context.suppliers.Where(x=>x.UsuarioId==id).First();
+            }
+
+            catch (System.Exception)
+            {
+                throw;
+            }
+            return result;
         }
 
         public bool Save(Supplier entity)

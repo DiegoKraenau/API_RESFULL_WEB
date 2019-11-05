@@ -55,6 +55,19 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to obtain a customer by his user ID
+        /// </summary>
+        /// <returns></returns>
+        [Route("searchByUserId/{id}")]
+        [HttpGet]
+        public ActionResult Get2(int id)
+        {
+            return Ok(
+                customerService.GetCustomerByUserId(id)
+            );
+        }
+
         
     }
 }

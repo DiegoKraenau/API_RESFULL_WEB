@@ -68,6 +68,9 @@ namespace RapiSolver.Api
             services.AddTransient<IRecommendationRepository, RecommendationRepository> ();
             services.AddTransient<IRecommendationService, RecommendationService> ();
 
+            services.AddTransient<IReservationRepository, ReservationRepository> ();
+            services.AddTransient<IReservationService, ReservationService> ();
+
 
              services.AddCors (options => {
                 options.AddPolicy ("Todos",

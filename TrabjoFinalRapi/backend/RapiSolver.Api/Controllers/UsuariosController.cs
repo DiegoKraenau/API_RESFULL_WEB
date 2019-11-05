@@ -52,5 +52,17 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+         /// <summary>
+        /// It allows to update the role of  a user by their user ID
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut("{id}")]
+        public ActionResult Put(int id)
+        {
+            return Ok(
+                usuarioService.UpdateRole(id)
+            );
+        }
+
     }
 }

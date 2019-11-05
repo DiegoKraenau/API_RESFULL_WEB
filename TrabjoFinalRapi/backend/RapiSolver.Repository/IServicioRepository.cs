@@ -11,5 +11,9 @@ namespace RapiSolver.Repository
          IEnumerable<ServicioViewModel> GetServiciosByCategory(string name);
 
          IEnumerable<ServicioViewModel> GetServiciosByIdSupplier(int id);
+
+          IEnumerable<ServicioViewModel> GetServiciosByUserId(int id);
+
+          bool UpdateServicio(ServicioViewModel servicioViewModel);
     }
 }

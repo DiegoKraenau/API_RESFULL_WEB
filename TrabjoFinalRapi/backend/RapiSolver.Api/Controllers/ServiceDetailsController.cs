@@ -41,7 +41,7 @@ namespace RapiSolver.Api.Controllers
         }
 
         /// <summary>
-        /// It allows to obtain a service detail between a supplier with a service by its corresponding Id
+        /// It allows to obtain a service detail view model between a supplier with a service by its corresponding Id
         /// </summary>
         /// <returns></returns>
         [HttpGet("{id}")]
@@ -91,5 +91,22 @@ namespace RapiSolver.Api.Controllers
                 serviceDetailsService.GetServiciosByLowCostAndName(nombre)
             );
         }
+
+           /// <summary>
+        /// It allows to obtain a  service details by his ID
+        /// </summary>
+        /// <returns></returns>
+        [Route("searchByID/{id}")]
+        [HttpGet]
+        public ActionResult Get5(int id)
+        {
+            return Ok(
+                serviceDetailsService.Get(id)
+            );
+        }
+
+      
+
+       
     }
 }

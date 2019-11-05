@@ -34,6 +34,11 @@ namespace RapiSolver.Service.implementation
             return customerRepository.GetAllCustomers();
         }
 
+        public IEnumerable<CustomerViewModel> GetCustomerByUserId(int id)
+        {
+             return customerRepository.GetCustomerByUserId(id);
+        }
+
         public bool Save(Customer entity)
         {
             return customerRepository.Save(entity);

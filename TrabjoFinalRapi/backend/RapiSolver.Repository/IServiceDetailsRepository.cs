@@ -17,5 +17,7 @@ namespace RapiSolver.Repository
          IEnumerable<ServiceDetailsViewModel> GetServiciosByLowCost();
 
          IEnumerable<ServiceDetailsViewModel> GetServiciosByLowCostAndName(string nombre);
+
+         
     }
 }

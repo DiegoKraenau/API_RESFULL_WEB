@@ -65,6 +65,30 @@ namespace RapiSolver.Repository.implementation
              });
         }
 
+        public IEnumerable<CustomerViewModel> GetCustomerByUserId(int id)
+        {
+            var customers = context.customers
+                .Include (o => o.Usuario)
+                .Include(o=>o.Location)
+                .OrderByDescending (o => o.CustomerId)
+                .Where(o=>o.UsuarioId==id)
+                .ToList ();
+
+            return customers.Select (o => new CustomerViewModel {
+                    CustomerId = o.CustomerId,
+                    Name = o.Name,
+                    LastName = o.LastName,
+                    Email = o.Email,
+                    Phone=o.Phone,
+                    Age=o.Age,
+                    Genger=o.Genger,
+                    UsuarioId=o.UsuarioId,
+                    LocationId=o.LocationId,
+                    UserName=o.Usuario.UserName,
+                    Country=o.Location.Country
+             });throw new System.NotImplementedException();
+        }
+
         public bool Save(Customer entity)
         {
              try

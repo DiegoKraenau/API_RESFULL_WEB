@@ -99,6 +99,27 @@ namespace RapiSolver.Repository.implementation
              });
         }
 
+        public IEnumerable<ServicioViewModel> GetServiciosByUserId(int id)
+        {
+            var detalles = context.serviceDetails
+                .Include (o => o.Servicio)
+                .Include (o => o.Supplier)
+                .Include (o => o.Supplier.Usuario)
+                .Include(o=>o.Servicio.ServiceCategory)
+                .Where(o=>o.Supplier.Usuario.UsuarioId==id)
+                .ToList ();
+
+            return detalles.Select (o => new ServicioViewModel {
+                    ServicioId = o.ServicioId,
+                    Name = o.Servicio.Name,
+                    Description = o.Servicio.Description,
+                    Cost = o.Servicio.Cost,
+                    ServiceCategoryId=o.Servicio.ServiceCategoryId,
+                    CategoryName=o.Servicio.ServiceCategory.CategoryName
+
+             });
+        }
+
         public bool Save(Servicio entity)
         {
             try
@@ -118,6 +139,28 @@ namespace RapiSolver.Repository.implementation
         public bool Update(Servicio entity)
         {
             throw new System.NotImplementedException();
+        }
+
+        public bool UpdateServicio(ServicioViewModel servicioViewModel)
+        {
+            try
+            {
+                Servicio s1=context.servicios.Find(servicioViewModel.ServicioId);
+                s1.Cost=servicioViewModel.Cost;
+                s1.Description=servicioViewModel.Description;
+                s1.Name=servicioViewModel.Name;
+                s1.ServiceCategory=context.categories.Where(x=>x.CategoryName==servicioViewModel.CategoryName).First();
+                s1.ServiceCategoryId=s1.ServiceCategory.ServiceCategoryId;
+                
+                context.Update(s1);
+                context.SaveChanges();
+            }
+            catch (System.Exception)
+            {
+
+                return false;
+            }
+            return true;
         }
     }
 }

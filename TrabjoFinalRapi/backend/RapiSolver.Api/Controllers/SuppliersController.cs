@@ -73,6 +73,46 @@ namespace RapiSolver.Api.Controllers
                 servicioService.GetServiciosByIdSupplier(id)
             );
         }
+
+        /// <summary>
+        /// It allows to obtain all the suppliers by their surname
+        /// </summary>
+        /// <returns></returns>
+        [Route("all/{apellido}")]
+        [HttpGet]
+        public ActionResult Get3(string apellido)
+        {
+            return Ok(
+                supplierService.GetAllSupplierBySurname(apellido)
+            );
+        }
+
+        /// <summary>
+        /// It allows to obtain a supplier view model by his user ID
+        /// </summary>
+        /// <returns></returns>
+        [Route("searchByUserId/{id}")]
+        [HttpGet]
+        public ActionResult Get4(int id)
+        {
+            return Ok(
+                supplierService.GetSupplierByUserId(id)
+            );
+        }
+
+        /// <summary>
+        /// It allows to obtain a original supplier  by his user ID
+        /// </summary>
+        /// <returns></returns>
+        [Route("searchOrginalByUserId/{id}")]
+        [HttpGet]
+        public ActionResult Get5(int id)
+        {
+            return Ok(
+                supplierService.GetSupplierOriginialByUserId(id)
+            );
+        }
+
         
     }
 }
