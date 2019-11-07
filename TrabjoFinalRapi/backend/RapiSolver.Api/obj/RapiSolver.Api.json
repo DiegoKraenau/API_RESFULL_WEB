@@ -47,7 +47,7 @@
         }
       }
     },
-    "/api/Customers": {
+    "/api/customers": {
       "get": {
         "tags": [
           "Customers"
@@ -90,7 +90,7 @@
         }
       }
     },
-    "/api/Customers/{id}": {
+    "/api/customers/{id}": {
       "get": {
         "tags": [
           "Customers"
@@ -114,7 +114,7 @@
         }
       }
     },
-    "/api/Customers/searchByUserId/{id}": {
+    "/api/customers/searchByUserId/{id}": {
       "get": {
         "tags": [
           "Customers"
@@ -138,7 +138,7 @@
         }
       }
     },
-    "/api/Locations": {
+    "/api/locations": {
       "get": {
         "tags": [
           "Locations"
@@ -181,7 +181,7 @@
         }
       }
     },
-    "/api/Locations/{id}": {
+    "/api/locations/{id}": {
       "get": {
         "tags": [
           "Locations"
@@ -205,7 +205,7 @@
         }
       }
     },
-    "/api/Recommendation": {
+    "/api/recommendations": {
       "post": {
         "tags": [
           "Recommendation"
@@ -237,7 +237,7 @@
         }
       }
     },
-    "/api/Recommendation/{id}": {
+    "/api/recommendations/{id}": {
       "get": {
         "tags": [
           "Recommendation"
@@ -261,7 +261,7 @@
         }
       }
     },
-    "/api/Reservations/searchByUserId/{id}": {
+    "/api/reservations/searchByUserId/{id}": {
       "get": {
         "tags": [
           "Reservations"
@@ -285,7 +285,7 @@
         }
       }
     },
-    "/api/Reservations/{id}": {
+    "/api/reservations/{id}": {
       "delete": {
         "tags": [
           "Reservations"
@@ -309,7 +309,7 @@
         }
       }
     },
-    "/api/Reservations": {
+    "/api/reservations": {
       "post": {
         "tags": [
           "Reservations"
@@ -341,7 +341,7 @@
         }
       }
     },
-    "/api/Roles": {
+    "/api/roles": {
       "get": {
         "tags": [
           "Roles"
@@ -384,7 +384,7 @@
         }
       }
     },
-    "/api/Roles/{id}": {
+    "/api/roles/{id}": {
       "get": {
         "tags": [
           "Roles"
@@ -408,7 +408,7 @@
         }
       }
     },
-    "/api/ServiceCategories": {
+    "/api/servicecategories": {
       "get": {
         "tags": [
           "ServiceCategories"
@@ -451,7 +451,7 @@
         }
       }
     },
-    "/api/ServiceCategories/{id}": {
+    "/api/servicecategories/{id}": {
       "get": {
         "tags": [
           "ServiceCategories"
@@ -475,7 +475,7 @@
         }
       }
     },
-    "/api/ServiceDetails": {
+    "/api/servicedetails": {
       "get": {
         "tags": [
           "ServiceDetails"
@@ -518,7 +518,7 @@
         }
       }
     },
-    "/api/ServiceDetails/{id}": {
+    "/api/servicedetails/{id}": {
       "get": {
         "tags": [
           "ServiceDetails"
@@ -542,7 +542,7 @@
         }
       }
     },
-    "/api/ServiceDetails/{nombre}/servicios": {
+    "/api/servicedetails/{nombre}/servicios": {
       "get": {
         "tags": [
           "ServiceDetails"
@@ -565,7 +565,7 @@
         }
       }
     },
-    "/api/ServiceDetails/all/lowcost": {
+    "/api/servicedetails/all/lowcost": {
       "get": {
         "tags": [
           "ServiceDetails"
@@ -578,7 +578,7 @@
         }
       }
     },
-    "/api/ServiceDetails/{nombre}/lowcostAndname": {
+    "/api/servicedetails/{nombre}/lowcostAndname": {
       "get": {
         "tags": [
           "ServiceDetails"
@@ -601,7 +601,7 @@
         }
       }
     },
-    "/api/ServiceDetails/searchByID/{id}": {
+    "/api/servicedetails/searchByID/{id}": {
       "get": {
         "tags": [
           "ServiceDetails"
@@ -625,7 +625,7 @@
         }
       }
     },
-    "/api/Servicios": {
+    "/api/rapiservices": {
       "get": {
         "tags": [
           "Servicios"
@@ -698,7 +698,7 @@
         }
       }
     },
-    "/api/Servicios/searchByName/{name}": {
+    "/api/rapiservices/searchByName/{name}": {
       "get": {
         "tags": [
           "Servicios"
@@ -721,7 +721,7 @@
         }
       }
     },
-    "/api/Servicios/searchByUserId/{id}": {
+    "/api/rapiservices/searchByUserId/{id}": {
       "get": {
         "tags": [
           "Servicios"
@@ -745,7 +745,7 @@
         }
       }
     },
-    "/api/Servicios/{id}": {
+    "/api/rapiservices/{id}": {
       "get": {
         "tags": [
           "Servicios"
@@ -769,7 +769,7 @@
         }
       }
     },
-    "/api/Suppliers": {
+    "/api/suppliers": {
       "get": {
         "tags": [
           "Suppliers"
@@ -812,7 +812,7 @@
         }
       }
     },
-    "/api/Suppliers/{id}": {
+    "/api/suppliers/{id}": {
       "get": {
         "tags": [
           "Suppliers"
@@ -836,7 +836,7 @@
         }
       }
     },
-    "/api/Suppliers/{id}/servicios": {
+    "/api/suppliers/{id}/servicios": {
       "get": {
         "tags": [
           "Suppliers"
@@ -860,7 +860,7 @@
         }
       }
     },
-    "/api/Suppliers/all/{apellido}": {
+    "/api/suppliers/all/{apellido}": {
       "get": {
         "tags": [
           "Suppliers"
@@ -883,7 +883,7 @@
         }
       }
     },
-    "/api/Suppliers/searchByUserId/{id}": {
+    "/api/suppliers/searchByUserId/{id}": {
       "get": {
         "tags": [
           "Suppliers"
@@ -907,7 +907,7 @@
         }
       }
     },
-    "/api/Suppliers/searchOrginalByUserId/{id}": {
+    "/api/suppliers/searchOrginalByUserId/{id}": {
       "get": {
         "tags": [
           "Suppliers"
@@ -931,7 +931,7 @@
         }
       }
     },
-    "/api/Usuarios": {
+    "/api/rapiusers": {
       "get": {
         "tags": [
           "Usuarios"
@@ -974,7 +974,7 @@
         }
       }
     },
-    "/api/Usuarios/{id}": {
+    "/api/rapiusers/{id}": {
       "get": {
         "tags": [
           "Usuarios"
