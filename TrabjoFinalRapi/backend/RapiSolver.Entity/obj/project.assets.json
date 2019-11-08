@@ -179,28 +179,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Piero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+      "projectUniqueName": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
       "projectName": "RapiSolver.Entity",
-      "projectPath": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
+      "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+      "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
+      "outputPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -4,7 +4,7 @@ using RapiSolver.Service;
 
 namespace RapiSolver.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/roles")]
     [ApiController]
 
     public class RolesController: ControllerBase

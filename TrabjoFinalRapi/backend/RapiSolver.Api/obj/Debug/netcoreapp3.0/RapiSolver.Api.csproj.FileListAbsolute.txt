@@ -187,3 +187,5 @@ C:\Users\diego\Desktop\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\b
 C:\Users\diego\Desktop\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\diego\Desktop\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.xml
 C:\Users\diego\Desktop\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.xml
+C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\bin\Debug\netcoreapp3.0\RapiSolver.Api.xml
+C:\Desarrollador\Aplicaciones Web\API_RESTFULL_WEB\TrabjoFinalRapi\backend\RapiSolver.Api\obj\Debug\netcoreapp3.0\RapiSolver.Api.xml

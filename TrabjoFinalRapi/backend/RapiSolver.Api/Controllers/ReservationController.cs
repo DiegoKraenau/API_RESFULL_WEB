@@ -4,7 +4,7 @@ using RapiSolver.Service;
 
 namespace RapiSolver.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/reservations")]
     [ApiController]
     public class ReservationsController:ControllerBase
     {
