@@ -33,7 +33,14 @@ namespace RapiSolver.Repository.implementation
 
         public Reservation Get(int id)
         {
-            throw new System.NotImplementedException();
+           var result = new Reservation();
+           try{
+               result = context.reservations.Single(x => x.ReservationId == id);
+           }
+           catch(System.Exception){
+               throw;
+           }
+           return result;
         }
 
         public IEnumerable<Reservation> GetAll()
