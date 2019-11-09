@@ -45,7 +45,15 @@ namespace RapiSolver.Repository.implementation
 
         public IEnumerable<Reservation> GetAll()
         {
-            throw new System.NotImplementedException();
+            var result = new List<Reservation>();
+           try{
+               result = context.reservations.ToList();
+
+           }
+           catch(System.Exception){
+               throw;
+           }
+           return result;
         }
 
         public IEnumerable<ReservationViewModel> GetAllReservationsByUserId(int id)
