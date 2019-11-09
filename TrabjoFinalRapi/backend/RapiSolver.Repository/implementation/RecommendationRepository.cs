@@ -22,7 +22,14 @@ namespace RapiSolver.Repository.implementation
 
         public Recommendation Get(int id)
         {
-            throw new System.NotImplementedException();
+            var result = new Recommendation();
+            try{
+                result = context.recommendations.Single(x => x.RecommendationId == id);
+            }
+            catch(System.Exception){
+                throw;
+            }
+            return result;
         }
 
         public IEnumerable<Recommendation> GetAll()
