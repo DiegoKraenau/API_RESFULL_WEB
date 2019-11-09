@@ -27,7 +27,15 @@ namespace RapiSolver.Repository.implementation
 
         public IEnumerable<Recommendation> GetAll()
         {
-            throw new System.NotImplementedException();
+            var result = new List<Recommendation>();
+            try{
+                result = context.recommendations.ToList();
+
+            }
+            catch(System.Exception){
+                throw;
+            }
+            return result;
         }
 
         public IEnumerable<RecommendationViewModel> GetRecommendationsBySupplierId(int id)
