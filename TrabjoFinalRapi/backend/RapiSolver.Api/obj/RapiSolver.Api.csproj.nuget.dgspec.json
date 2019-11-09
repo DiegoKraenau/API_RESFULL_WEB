@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {}
+    "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {}
   },
   "projects": {
-    "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {
+    "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
         "projectName": "RapiSolver.Api",
-        "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
-        "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-                "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+              "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
               },
-              "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
-                "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj"
+              "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj"
               }
             }
           }
@@ -82,17 +85,20 @@
         }
       }
     },
-    "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+    "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
         "projectName": "RapiSolver.Entity",
-        "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
-        "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -137,17 +143,20 @@
         }
       }
     },
-    "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
+    "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
         "projectName": "RapiSolver.Repository",
-        "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
-        "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +169,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-                "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+              "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
               }
             }
           }
@@ -204,17 +213,20 @@
         }
       }
     },
-    "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
+    "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
         "projectName": "RapiSolver.Service",
-        "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
-        "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,11 +239,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-                "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+              "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
               },
-              "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
-                "projectPath": "C:\\Desarrollador\\Aplicaciones Web\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj"
+              "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Trabajo Final Web 22\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj"
               }
             }
           }
