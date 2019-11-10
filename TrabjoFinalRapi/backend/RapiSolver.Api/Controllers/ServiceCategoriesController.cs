@@ -5,7 +5,7 @@ using RapiSolver.Service;
 namespace RapiSolver.Api.Controllers
 {
 
-    [Route("api/[controller]")]
+    [Route("api/servicecategories")]
     [ApiController]
     public class ServiceCategoriesController: ControllerBase
     {

@@ -1,12 +1,14 @@
 Rol:
 {
-  "rolDescription": "Puede publicar",
-  "publish": true
-}
-{
   "rolDescription": "No puede publicar",
   "publish": false
 }
+
+{
+  "rolDescription": "Puede publicar",
+  "publish": true
+}
+
 
 ServiceCategory:
 {

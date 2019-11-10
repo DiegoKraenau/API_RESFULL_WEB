@@ -38,7 +38,15 @@ namespace RapiSolver.Repository.implementation
 
         public IEnumerable<Customer> GetAll()
         {
-            throw new System.NotImplementedException();
+            var result = new  List<Customer>();
+            try{
+                result = context.customers.ToList();
+
+            }
+            catch(System.Exception){
+                throw;
+            }
+            return result;
         }
 
         public IEnumerable<CustomerViewModel> GetAllCustomers()
