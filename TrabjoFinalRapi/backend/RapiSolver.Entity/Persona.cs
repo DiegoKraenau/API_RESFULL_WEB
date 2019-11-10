@@ -21,6 +21,7 @@ namespace RapiSolver.Entity
          
         public string Genger{get;set;}
 
+
         public Usuario Usuario{get;set;}
 
         public int UsuarioId{get;set;}
