@@ -48,5 +48,10 @@ namespace RapiSolver.Service.implementation
         {
             return customerRepository.Update(entity);
         }
+
+        public bool ValidarSubscripcion(int id)
+        {
+            return customerRepository.ValidarSubscripcion(id);
+        }
     }
 }

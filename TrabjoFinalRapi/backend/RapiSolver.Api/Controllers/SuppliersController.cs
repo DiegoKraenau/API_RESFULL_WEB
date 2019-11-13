@@ -113,6 +113,18 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to update a supplier 
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut()]
+        public ActionResult Put([FromBody] Supplier supplier)
+        {
+            return Ok(
+                supplierService.Update(supplier)
+            );
+        }
+
         
     }
 }

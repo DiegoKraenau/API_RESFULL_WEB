@@ -47,7 +47,6 @@ namespace RapiSolver.Repository.implementation
             var usuario = context.usuarios
                 .Include (o => o.Rol)
                 .OrderByDescending (o => o.RolId)
-                .Take (10)
                 .ToList ();
 
             return usuario.Select (o => new UsuarioViewModel {

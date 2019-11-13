@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
@@ -177,7 +178,56 @@ namespace RapiSolver.Repository.implementation
 
         public bool Update(Supplier entity)
         {
-            throw new System.NotImplementedException();
+             try
+            {
+                Supplier c1=context.suppliers.Find(entity.SupplierId);
+                Usuario u1=context.usuarios.Find(c1.UsuarioId);
+                Console.WriteLine(u1.UsuarioId);
+                u1.UserName=entity.Email;
+                u1.UserPassword=entity.Contraseña;
+                u1.RolId=2;
+                u1.Rol=context.roles.Find(u1.RolId);
+                context.Update(u1);
+                context.SaveChanges();
+
+                
+                Location l1=context.locations.Find(c1.LocationId);
+                l1.Country=entity.Country;
+                l1.City=entity.City;
+                l1.State=entity.State;
+                l1.Address=entity.Address;
+
+                context.Update(l1);
+                context.SaveChanges();
+
+                c1.Genger=entity.Genger;
+                c1.LastName=entity.LastName;
+                c1.Name=entity.Name;
+                c1.Phone=entity.Phone;
+                c1.Age=entity.Age;
+                c1.Email=entity.Email;
+                c1.Contraseña=entity.Contraseña;
+                c1.City=entity.City;
+                c1.Country=entity.Country;
+                c1.State=entity.State;
+                c1.Address=entity.Address;
+
+                
+                
+                context.Update(c1);
+                context.SaveChanges();
+                
+                
+
+                
+            }
+            catch (System.Exception)
+            {
+
+                return false;
+            }
+            return true;
         }
+        
     }
 }

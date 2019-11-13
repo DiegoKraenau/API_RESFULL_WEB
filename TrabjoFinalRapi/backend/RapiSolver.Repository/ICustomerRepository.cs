@@ -9,5 +9,8 @@ namespace RapiSolver.Repository
           IEnumerable<CustomerViewModel> GetAllCustomers();
 
           IEnumerable<CustomerViewModel> GetCustomerByUserId(int id);
+
+         
+          bool ValidarSubscripcion(int id);
     }
 }

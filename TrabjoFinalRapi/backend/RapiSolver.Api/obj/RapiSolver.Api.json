@@ -88,6 +88,36 @@
             "description": "Success"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Customers"
+        ],
+        "summary": "It allows to update a customer",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Customer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/customers/{id}": {
@@ -120,6 +150,30 @@
           "Customers"
         ],
         "summary": "It allows to obtain a customer by his user ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/customers/{id}/addSubscription": {
+      "get": {
+        "tags": [
+          "Customers"
+        ],
+        "summary": "It allows to add a subscription package",
         "parameters": [
           {
             "name": "id",
@@ -786,6 +840,36 @@
           "Suppliers"
         ],
         "summary": "It allows to add a supplier",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Supplier"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Supplier"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Supplier"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Suppliers"
+        ],
+        "summary": "It allows to update a supplier",
         "requestBody": {
           "content": {
             "application/json": {

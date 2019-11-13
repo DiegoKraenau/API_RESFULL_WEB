@@ -68,6 +68,31 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+
+         /// <summary>
+        /// It allows to update a customer 
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut()]
+        public ActionResult Put([FromBody] Customer customer)
+        {
+            return Ok(
+                customerService.Update(customer)
+            );
+        }
+
+        /// <summary>
+        /// It allows to add a subscription package
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("{id}/addSubscription")]
+        public ActionResult Get3(int id)
+        {
+            return Ok(
+                customerService.ValidarSubscripcion(id)
+            );
+        }
+
         
     }
 }

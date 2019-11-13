@@ -34,6 +34,18 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.CustomersController.Put(RapiSolver.Entity.Customer)">
+            <summary>
+            It allows to update a customer 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.CustomersController.Get3(System.Int32)">
+            <summary>
+            It allows to add a subscription package
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.LocationsController.Get">
             <summary>
             It allows to obtain all the locations
@@ -235,6 +247,12 @@
         <member name="M:RapiSolver.Api.Controllers.SuppliersController.Get5(System.Int32)">
             <summary>
             It allows to obtain a original supplier  by his user ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RapiSolver.Api.Controllers.SuppliersController.Put(RapiSolver.Entity.Supplier)">
+            <summary>
+            It allows to update a supplier 
             </summary>
             <returns></returns>
         </member>
