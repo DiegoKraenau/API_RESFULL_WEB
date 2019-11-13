@@ -208,6 +208,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.ServiciosController.Delete(System.Int32)">
+            <summary>
+            It allows to delete a service 
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.SuppliersController.Get">
             <summary>
             It allows  to obtain all the suppliers that were added

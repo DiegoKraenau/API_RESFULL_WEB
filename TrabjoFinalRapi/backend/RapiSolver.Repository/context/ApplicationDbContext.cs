@@ -31,7 +31,10 @@ namespace RapiSolver.Repository.context
 
         }
 
+
         protected override void OnModelCreating (ModelBuilder modelBuilder) {
+            
+     
 
         //Prueba
          modelBuilder.Entity<Cliente>(b =>
@@ -108,7 +111,11 @@ namespace RapiSolver.Repository.context
          modelBuilder.Entity<Reservation>().HasOne(x=>x.Supplier);
 
          modelBuilder.Entity<Reservation>().HasOne(x=>x.Usuario);
+
+           
         }
+
+        
 
     }
 }

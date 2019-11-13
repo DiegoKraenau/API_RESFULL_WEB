@@ -821,6 +821,28 @@
             "description": "Success"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "Servicios"
+        ],
+        "summary": "It allows to delete a service",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/suppliers": {

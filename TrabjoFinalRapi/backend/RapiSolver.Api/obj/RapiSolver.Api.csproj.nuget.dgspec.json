@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {}
+    "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.api\\RapiSolver.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {
+    "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.api\\RapiSolver.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.api\\RapiSolver.Api.csproj",
         "projectName": "RapiSolver.Api",
-        "projectPath": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
+        "projectPath": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.api\\RapiSolver.Api.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\API_RESTFULL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

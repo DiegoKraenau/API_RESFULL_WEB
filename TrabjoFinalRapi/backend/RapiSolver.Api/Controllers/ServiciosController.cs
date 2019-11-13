@@ -92,6 +92,18 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+        /// <summary>
+        /// It allows to delete a service 
+        /// </summary>
+        /// <returns></returns>
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            return Ok(
+                servicioService.Delete(id)
+            );
+        }
+
 
         
     }
