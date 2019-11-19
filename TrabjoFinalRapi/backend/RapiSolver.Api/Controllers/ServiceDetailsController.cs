@@ -105,6 +105,18 @@ namespace RapiSolver.Api.Controllers
             );
         }
 
+
+         /// <summary>
+        /// It allows to obtain only 3 service detail view models 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("obtainOnlyThree")]
+        public ActionResult Get6()
+        {
+            return Ok(
+                serviceDetailsService.Get3LastServices()
+            );
+        }
       
 
        

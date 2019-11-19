@@ -679,6 +679,19 @@
         }
       }
     },
+    "/api/servicedetails/obtainOnlyThree": {
+      "get": {
+        "tags": [
+          "ServiceDetails"
+        ],
+        "summary": "It allows to obtain only 3 service detail view models",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/rapiservices": {
       "get": {
         "tags": [

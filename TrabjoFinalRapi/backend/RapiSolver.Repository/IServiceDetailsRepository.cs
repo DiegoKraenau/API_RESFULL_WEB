@@ -18,6 +18,8 @@ namespace RapiSolver.Repository
 
          IEnumerable<ServiceDetailsViewModel> GetServiciosByLowCostAndName(string nombre);
 
+         IEnumerable<ServiceDetailsViewModel> Get3LastServices();
+
          
     }
 }

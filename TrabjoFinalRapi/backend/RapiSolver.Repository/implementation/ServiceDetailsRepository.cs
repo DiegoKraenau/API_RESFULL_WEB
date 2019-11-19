@@ -35,6 +35,40 @@ namespace RapiSolver.Repository.implementation
             return result;
         }
 
+        public IEnumerable<ServiceDetailsViewModel> Get3LastServices()
+        {
+             var details = context.serviceDetails
+                .Include (o => o.Supplier)
+                .Include(o=>o.Supplier.Location)
+                .Include(o=>o.Supplier.Usuario)
+                .Include(o=>o.Servicio)
+                .Include(o=>o.Servicio.ServiceCategory)
+                .OrderByDescending (o => o.ServiceDetailsId)
+                .Take (3)
+                .ToList ();
+
+            return details.Select (o => new ServiceDetailsViewModel {
+                    ServiceDetailsId = o.ServiceDetailsId,
+                    SupplierId = o.SupplierId,
+                    ServicioId = o.ServicioId,
+                    Name = o.Supplier.Name,
+                    LastName=o.Supplier.LastName,
+                    Email=o.Supplier.Email,
+                    Phone=o.Supplier.Phone,
+                    Age=o.Supplier.Age,
+                    Genger=o.Supplier.Genger,
+                    UsuarioId=o.Supplier.Usuario.UsuarioId,
+                    LocationId=o.Supplier.Location.LocationId,
+                    UserName=o.Supplier.Usuario.UserName,
+                    Country=o.Supplier.Location.Country,
+                    ServiceName=context.serviceDetails.Find(o.ServiceDetailsId).Servicio.Name,
+                    Description=context.serviceDetails.Find(o.ServiceDetailsId).Servicio.Description,
+                    Cost=context.serviceDetails.Find(o.ServiceDetailsId).Servicio.Cost,
+                    ServiceCategoryId=context.serviceDetails.Find(o.ServiceDetailsId).Servicio.ServiceCategoryId,
+                    CategoryName=context.serviceDetails.Find(o.ServiceDetailsId).Servicio.ServiceCategory.CategoryName
+             });
+        }
+
         public IEnumerable<ServiceDetails> GetAll()
         {
             throw new System.NotImplementedException();

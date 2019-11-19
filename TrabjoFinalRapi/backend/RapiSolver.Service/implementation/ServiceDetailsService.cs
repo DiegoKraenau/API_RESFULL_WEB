@@ -23,6 +23,11 @@ namespace RapiSolver.Service.implementation
             return serviceDetailsRepository.Get(id);
         }
 
+        public IEnumerable<ServiceDetailsViewModel> Get3LastServices()
+        {
+            return serviceDetailsRepository.Get3LastServices();
+        }
+
         public IEnumerable<ServiceDetails> GetAll()
         {
             return serviceDetailsRepository.GetAll();

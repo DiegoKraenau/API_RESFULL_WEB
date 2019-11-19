@@ -172,6 +172,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:RapiSolver.Api.Controllers.ServiceDetailsController.Get6">
+            <summary>
+            It allows to obtain only 3 service detail view models 
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:RapiSolver.Api.Controllers.ServiciosController.Get">
             <summary>
             It allows  to obtain all the services that were added
